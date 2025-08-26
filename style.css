@@ -52,7 +52,24 @@ body{
     font-size: 14px;
 }
 
+.banner {
+  background: #2874f0;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
 
+.banner img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+
+.banner h2, p{
+      text-align: center;
+}
 .section {
       margin: 20px;
       background-color: white;
@@ -129,3 +146,4 @@ body{
       font-size: 14px;
       color: #aaa;
 }
+

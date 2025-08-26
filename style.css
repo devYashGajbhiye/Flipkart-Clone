@@ -140,6 +140,41 @@ body{
       text-decoration: underline;
 }
 
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Specific colors */
+.social-icons a.facebook {
+  background-color: #3b5998;
+}
+.social-icons a.twitter {
+  background-color: #1da1f2;
+}
+.social-icons a.youtube {
+  background-color: #ff0000;
+}
+
+/* Hover effect */
+.social-icons a:hover {
+  transform: scale(1.1);
+  opacity: 0.9;
+}
+
 .footer-bottom {
       text-align: center;
       margin-top: 20px;

@@ -59,17 +59,40 @@ body{
   padding: 20px;
 }
 
-.banner img {
-  max-width: 100%;
-  height: auto;
+.banner-images {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.banner-item {
+  background: white;
+  color: black;
   border-radius: 5px;
-  margin-bottom: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 250px;
+}
+
+.banner-item img {
+  width: 100%;
+  height: 200px;   
+  object-fit: cover; 
+  border-radius: 5px;
+}
+
+.banner-item h2 {
+  font-size: 18px;
+  margin: 10px 0 5px;
+}
+
+.banner-item p {
+  font-size: 14px;
+  color: #555;
 }
 
 
-.banner h2, p{
-      text-align: center;
-}
 .section {
       margin: 20px;
       background-color: white;
@@ -149,8 +172,8 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   font-size: 18px;
   color: white;
@@ -158,7 +181,7 @@ body{
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-/* Specific colors */
+
 .social-icons a.facebook {
   background-color: #3b5998;
 }
@@ -169,7 +192,6 @@ body{
   background-color: #ff0000;
 }
 
-/* Hover effect */
 .social-icons a:hover {
   transform: scale(1.1);
   opacity: 0.9;
